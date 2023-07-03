@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/darwin_motion/darwin_motion.egg-info/PKG-INFO
+writing dependency_links to ../../build/darwin_motion/darwin_motion.egg-info/dependency_links.txt
+writing entry points to ../../build/darwin_motion/darwin_motion.egg-info/entry_points.txt
+writing requirements to ../../build/darwin_motion/darwin_motion.egg-info/requires.txt
+writing top-level names to ../../build/darwin_motion/darwin_motion.egg-info/top_level.txt
+reading manifest file '../../build/darwin_motion/darwin_motion.egg-info/SOURCES.txt'
+writing manifest file '../../build/darwin_motion/darwin_motion.egg-info/SOURCES.txt'
+running build
+running build_py
+copying darwin_motion/DarwinMotionNode.py -> /home/joshua/ros2_ws/build/darwin_motion/build/lib/darwin_motion
+running install
+running install_lib
+copying /home/joshua/ros2_ws/build/darwin_motion/build/lib/darwin_motion/DarwinMotionNode.py -> /home/joshua/ros2_ws/install/darwin_motion/lib/python3.10/site-packages/darwin_motion
+byte-compiling /home/joshua/ros2_ws/install/darwin_motion/lib/python3.10/site-packages/darwin_motion/DarwinMotionNode.py to DarwinMotionNode.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/joshua/ros2_ws/install/darwin_motion/lib/python3.10/site-packages/darwin_motion-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/darwin_motion/darwin_motion.egg-info to /home/joshua/ros2_ws/install/darwin_motion/lib/python3.10/site-packages/darwin_motion-0.0.0-py3.10.egg-info
+running install_scripts
+Installing motor_controller script to /home/joshua/ros2_ws/install/darwin_motion/lib/darwin_motion
+writing list of installed files to '/home/joshua/ros2_ws/build/darwin_motion/install.log'

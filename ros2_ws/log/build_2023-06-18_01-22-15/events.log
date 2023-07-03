@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.004711] (darwin_motion) JobQueued: {'identifier': 'darwin_motion', 'dependencies': OrderedDict()}
+[0.005575] (darwin_motion) JobStarted: {'identifier': 'darwin_motion'}
+[0.094641] (-) TimerEvent: {}
+[0.196017] (-) TimerEvent: {}
+[0.297387] (-) TimerEvent: {}
+[0.398652] (-) TimerEvent: {}
+[0.499965] (-) TimerEvent: {}
+[0.601297] (-) TimerEvent: {}
+[0.702660] (-) TimerEvent: {}
+[0.803973] (-) TimerEvent: {}
+[0.905244] (-) TimerEvent: {}
+[1.006567] (-) TimerEvent: {}
+[1.108031] (-) TimerEvent: {}
+[1.209310] (-) TimerEvent: {}
+[1.310536] (-) TimerEvent: {}
+[1.411824] (-) TimerEvent: {}
+[1.513160] (-) TimerEvent: {}
+[1.614396] (-) TimerEvent: {}
+[1.715636] (-) TimerEvent: {}
+[1.817013] (-) TimerEvent: {}
+[1.918304] (-) TimerEvent: {}
+[2.019598] (-) TimerEvent: {}
+[2.120979] (-) TimerEvent: {}
+[2.222253] (-) TimerEvent: {}
+[2.323559] (-) TimerEvent: {}
+[2.425007] (-) TimerEvent: {}
+[2.526588] (-) TimerEvent: {}
+[2.628046] (-) TimerEvent: {}
+[2.730832] (-) TimerEvent: {}
+[2.832220] (-) TimerEvent: {}
+[2.933606] (-) TimerEvent: {}
+[3.034881] (-) TimerEvent: {}
+[3.136142] (-) TimerEvent: {}
+[3.237552] (-) TimerEvent: {}
+[3.338834] (-) TimerEvent: {}
+[3.440247] (-) TimerEvent: {}
+[3.541560] (-) TimerEvent: {}
+[3.642794] (-) TimerEvent: {}
+[3.744083] (-) TimerEvent: {}
+[3.845423] (-) TimerEvent: {}
+[3.946737] (-) TimerEvent: {}
+[4.047972] (-) TimerEvent: {}
+[4.149248] (-) TimerEvent: {}
+[4.250564] (-) TimerEvent: {}
+[4.351770] (-) TimerEvent: {}
+[4.453045] (-) TimerEvent: {}
+[4.554382] (-) TimerEvent: {}
+[4.655609] (-) TimerEvent: {}
+[4.756960] (-) TimerEvent: {}
+[4.858206] (-) TimerEvent: {}
+[4.959525] (-) TimerEvent: {}
+[5.060709] (-) TimerEvent: {}
+[5.162016] (-) TimerEvent: {}
+[5.263318] (-) TimerEvent: {}
+[5.364522] (-) TimerEvent: {}
+[5.465813] (-) TimerEvent: {}
+[5.567120] (-) TimerEvent: {}
+[5.668451] (-) TimerEvent: {}
+[5.769940] (-) TimerEvent: {}
+[5.871594] (-) TimerEvent: {}
+[5.973114] (-) TimerEvent: {}
+[6.022965] (darwin_motion) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/darwin_motion', 'build', '--build-base', '/home/joshua/ros2_ws/build/darwin_motion/build', 'install', '--record', '/home/joshua/ros2_ws/build/darwin_motion/install.log', '--single-version-externally-managed'], 'cwd': '/home/joshua/ros2_ws/src/darwin_motion', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'joshua', 'SSH_CLIENT': '192.168.1.46 62516 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/joshua/ros2_humble/ros2-linux/opt/rviz_ogre_vendor/lib:/home/joshua/ros2_humble/ros2-linux/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/joshua', 'OLDPWD': '/home/joshua', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/joshua/ros2_humble/ros2-linux', 'ROS_DISTRO': 'humble', 'LOGNAME': 'joshua', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/joshua/ros2_humble/ros2-linux/lib/aarch64-linux-gnu/pkgconfig:/home/joshua/ros2_humble/ros2-linux/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/joshua/ros2_humble/ros2-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble:/home/joshua/ros2_humble/ros2-linux', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/joshua/ros2_ws/build/darwin_motion', 'SSH_CONNECTION': '192.168.1.46 62516 192.168.1.18 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/joshua/ros2_ws/build/darwin_motion/prefix_override:/home/joshua/ros2_ws/install/darwin_motion/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/joshua/ros2_humble/ros2-linux/lib/python3.10/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/joshua/ros2_humble/ros2-linux'}, 'shell': False}
+[6.073387] (-) TimerEvent: {}
+[6.175382] (-) TimerEvent: {}
+[6.276896] (-) TimerEvent: {}
+[6.378246] (-) TimerEvent: {}
+[6.479572] (-) TimerEvent: {}
+[6.580908] (-) TimerEvent: {}
+[6.682126] (-) TimerEvent: {}
+[6.783508] (-) TimerEvent: {}
+[6.884951] (-) TimerEvent: {}
+[6.986397] (-) TimerEvent: {}
+[7.087667] (-) TimerEvent: {}
+[7.188959] (-) TimerEvent: {}
+[7.290209] (-) TimerEvent: {}
+[7.391557] (-) TimerEvent: {}
+[7.493685] (-) TimerEvent: {}
+[7.595594] (-) TimerEvent: {}
+[7.697511] (-) TimerEvent: {}
+[7.798766] (-) TimerEvent: {}
+[7.900118] (-) TimerEvent: {}
+[8.001475] (-) TimerEvent: {}
+[8.102782] (-) TimerEvent: {}
+[8.204091] (-) TimerEvent: {}
+[8.293962] (darwin_motion) StdoutLine: {'line': b'running egg_info\n'}
+[8.299854] (darwin_motion) StdoutLine: {'line': b'writing ../../build/darwin_motion/darwin_motion.egg-info/PKG-INFO\n'}
+[8.302249] (darwin_motion) StdoutLine: {'line': b'writing dependency_links to ../../build/darwin_motion/darwin_motion.egg-info/dependency_links.txt\n'}
+[8.304180] (darwin_motion) StdoutLine: {'line': b'writing entry points to ../../build/darwin_motion/darwin_motion.egg-info/entry_points.txt\n'}
+[8.305629] (-) TimerEvent: {}
+[8.307418] (darwin_motion) StdoutLine: {'line': b'writing requirements to ../../build/darwin_motion/darwin_motion.egg-info/requires.txt\n'}
+[8.309083] (darwin_motion) StdoutLine: {'line': b'writing top-level names to ../../build/darwin_motion/darwin_motion.egg-info/top_level.txt\n'}
+[8.324560] (darwin_motion) StdoutLine: {'line': b"reading manifest file '../../build/darwin_motion/darwin_motion.egg-info/SOURCES.txt'\n"}
+[8.334072] (darwin_motion) StdoutLine: {'line': b"writing manifest file '../../build/darwin_motion/darwin_motion.egg-info/SOURCES.txt'\n"}
+[8.336098] (darwin_motion) StdoutLine: {'line': b'running build\n'}
+[8.337218] (darwin_motion) StdoutLine: {'line': b'running build_py\n'}
+[8.339625] (darwin_motion) StdoutLine: {'line': b'running install\n'}
+[8.341546] (darwin_motion) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.345706] (darwin_motion) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.347204] (darwin_motion) StdoutLine: {'line': b'running install_lib\n'}
+[8.357320] (darwin_motion) StdoutLine: {'line': b'running install_data\n'}
+[8.361785] (darwin_motion) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.374196] (darwin_motion) StdoutLine: {'line': b"removing '/home/joshua/ros2_ws/install/darwin_motion/lib/python3.10/site-packages/darwin_motion-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.378144] (darwin_motion) StdoutLine: {'line': b'Copying ../../build/darwin_motion/darwin_motion.egg-info to /home/joshua/ros2_ws/install/darwin_motion/lib/python3.10/site-packages/darwin_motion-0.0.0-py3.10.egg-info\n'}
+[8.390934] (darwin_motion) StdoutLine: {'line': b'running install_scripts\n'}
+[8.405853] (-) TimerEvent: {}
+[8.507101] (-) TimerEvent: {}
+[8.571394] (darwin_motion) StdoutLine: {'line': b'Installing motor_controller script to /home/joshua/ros2_ws/install/darwin_motion/lib/darwin_motion\n'}
+[8.574901] (darwin_motion) StdoutLine: {'line': b"writing list of installed files to '/home/joshua/ros2_ws/build/darwin_motion/install.log'\n"}
+[8.607451] (-) TimerEvent: {}
+[8.709058] (-) TimerEvent: {}
+[8.810547] (-) TimerEvent: {}
+[8.824782] (darwin_motion) CommandEnded: {'returncode': 0}
+[8.910878] (-) TimerEvent: {}
+[8.972862] (darwin_motion) JobEnded: {'identifier': 'darwin_motion', 'rc': 0}
+[8.979574] (-) EventReactorShutdown: {}

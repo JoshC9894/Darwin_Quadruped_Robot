@@ -1,0 +1,39 @@
+[7.763s] Invoking command in '/home/joshua/ros2_ws/src/darwin_motion': PYTHONPATH=/home/joshua/ros2_ws/build/darwin_motion/prefix_override:/home/joshua/ros2_ws/install/darwin_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/darwin_motion build --build-base /home/joshua/ros2_ws/build/darwin_motion/build install --record /home/joshua/ros2_ws/build/darwin_motion/install.log --single-version-externally-managed
+[10.077s] running egg_info
+[10.081s] creating ../../build/darwin_motion/darwin_motion.egg-info
+[10.123s] writing ../../build/darwin_motion/darwin_motion.egg-info/PKG-INFO
+[10.127s] writing dependency_links to ../../build/darwin_motion/darwin_motion.egg-info/dependency_links.txt
+[10.130s] writing entry points to ../../build/darwin_motion/darwin_motion.egg-info/entry_points.txt
+[10.132s] writing requirements to ../../build/darwin_motion/darwin_motion.egg-info/requires.txt
+[10.134s] writing top-level names to ../../build/darwin_motion/darwin_motion.egg-info/top_level.txt
+[10.136s] writing manifest file '../../build/darwin_motion/darwin_motion.egg-info/SOURCES.txt'
+[10.159s] reading manifest file '../../build/darwin_motion/darwin_motion.egg-info/SOURCES.txt'
+[10.167s] writing manifest file '../../build/darwin_motion/darwin_motion.egg-info/SOURCES.txt'
+[10.168s] running build
+[10.170s] running build_py
+[10.171s] creating /home/joshua/ros2_ws/build/darwin_motion/build
+[10.173s] creating /home/joshua/ros2_ws/build/darwin_motion/build/lib
+[10.175s] creating /home/joshua/ros2_ws/build/darwin_motion/build/lib/darwin_motion
+[10.176s] copying darwin_motion/__init__.py -> /home/joshua/ros2_ws/build/darwin_motion/build/lib/darwin_motion
+[10.178s] copying darwin_motion/DarwinMotionNode.py -> /home/joshua/ros2_ws/build/darwin_motion/build/lib/darwin_motion
+[10.182s] running install
+[10.184s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.185s]   warnings.warn(
+[10.187s] running install_lib
+[10.194s] creating /home/joshua/ros2_ws/install/darwin_motion/lib/python3.10/site-packages/darwin_motion
+[10.200s] copying /home/joshua/ros2_ws/build/darwin_motion/build/lib/darwin_motion/__init__.py -> /home/joshua/ros2_ws/install/darwin_motion/lib/python3.10/site-packages/darwin_motion
+[10.201s] copying /home/joshua/ros2_ws/build/darwin_motion/build/lib/darwin_motion/DarwinMotionNode.py -> /home/joshua/ros2_ws/install/darwin_motion/lib/python3.10/site-packages/darwin_motion
+[10.207s] byte-compiling /home/joshua/ros2_ws/install/darwin_motion/lib/python3.10/site-packages/darwin_motion/__init__.py to __init__.cpython-310.pyc
+[10.214s] byte-compiling /home/joshua/ros2_ws/install/darwin_motion/lib/python3.10/site-packages/darwin_motion/DarwinMotionNode.py to DarwinMotionNode.cpython-310.pyc
+[10.218s] running install_data
+[10.223s] creating /home/joshua/ros2_ws/install/darwin_motion/share/ament_index
+[10.224s] creating /home/joshua/ros2_ws/install/darwin_motion/share/ament_index/resource_index
+[10.228s] creating /home/joshua/ros2_ws/install/darwin_motion/share/ament_index/resource_index/packages
+[10.230s] copying resource/darwin_motion -> /home/joshua/ros2_ws/install/darwin_motion/share/ament_index/resource_index/packages
+[10.231s] copying package.xml -> /home/joshua/ros2_ws/install/darwin_motion/share/darwin_motion
+[10.232s] running install_egg_info
+[10.245s] Copying ../../build/darwin_motion/darwin_motion.egg-info to /home/joshua/ros2_ws/install/darwin_motion/lib/python3.10/site-packages/darwin_motion-0.0.0-py3.10.egg-info
+[10.258s] running install_scripts
+[10.451s] Installing darwin_motion script to /home/joshua/ros2_ws/install/darwin_motion/lib/darwin_motion
+[10.458s] writing list of installed files to '/home/joshua/ros2_ws/build/darwin_motion/install.log'
+[10.714s] Invoked command in '/home/joshua/ros2_ws/src/darwin_motion' returned '0': PYTHONPATH=/home/joshua/ros2_ws/build/darwin_motion/prefix_override:/home/joshua/ros2_ws/install/darwin_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/darwin_motion build --build-base /home/joshua/ros2_ws/build/darwin_motion/build install --record /home/joshua/ros2_ws/build/darwin_motion/install.log --single-version-externally-managed

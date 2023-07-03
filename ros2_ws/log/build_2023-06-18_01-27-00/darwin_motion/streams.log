@@ -1,0 +1,23 @@
+[6.035s] Invoking command in '/home/joshua/ros2_ws/src/darwin_motion': PYTHONPATH=/home/joshua/ros2_ws/build/darwin_motion/prefix_override:/home/joshua/ros2_ws/install/darwin_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/darwin_motion build --build-base /home/joshua/ros2_ws/build/darwin_motion/build install --record /home/joshua/ros2_ws/build/darwin_motion/install.log --single-version-externally-managed
+[8.274s] running egg_info
+[8.279s] writing ../../build/darwin_motion/darwin_motion.egg-info/PKG-INFO
+[8.281s] writing dependency_links to ../../build/darwin_motion/darwin_motion.egg-info/dependency_links.txt
+[8.283s] writing entry points to ../../build/darwin_motion/darwin_motion.egg-info/entry_points.txt
+[8.286s] writing requirements to ../../build/darwin_motion/darwin_motion.egg-info/requires.txt
+[8.288s] writing top-level names to ../../build/darwin_motion/darwin_motion.egg-info/top_level.txt
+[8.304s] reading manifest file '../../build/darwin_motion/darwin_motion.egg-info/SOURCES.txt'
+[8.313s] writing manifest file '../../build/darwin_motion/darwin_motion.egg-info/SOURCES.txt'
+[8.315s] running build
+[8.316s] running build_py
+[8.318s] running install
+[8.320s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.321s]   warnings.warn(
+[8.322s] running install_lib
+[8.335s] running install_data
+[8.340s] running install_egg_info
+[8.353s] removing '/home/joshua/ros2_ws/install/darwin_motion/lib/python3.10/site-packages/darwin_motion-0.0.0-py3.10.egg-info' (and everything under it)
+[8.357s] Copying ../../build/darwin_motion/darwin_motion.egg-info to /home/joshua/ros2_ws/install/darwin_motion/lib/python3.10/site-packages/darwin_motion-0.0.0-py3.10.egg-info
+[8.370s] running install_scripts
+[8.550s] Installing motor_controller script to /home/joshua/ros2_ws/install/darwin_motion/lib/darwin_motion
+[8.554s] writing list of installed files to '/home/joshua/ros2_ws/build/darwin_motion/install.log'
+[8.823s] Invoked command in '/home/joshua/ros2_ws/src/darwin_motion' returned '0': PYTHONPATH=/home/joshua/ros2_ws/build/darwin_motion/prefix_override:/home/joshua/ros2_ws/install/darwin_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/darwin_motion build --build-base /home/joshua/ros2_ws/build/darwin_motion/build install --record /home/joshua/ros2_ws/build/darwin_motion/install.log --single-version-externally-managed
